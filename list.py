@@ -20,5 +20,5 @@ print("Enter any number of your choice")
 for i in range(n):
     s = int(input())
     l1.append(s)
-
+l1.sort()
 print(l1)
